@@ -33,7 +33,7 @@ export const listData = [
 
 export const AllFilms = gql`
 query GetPlanetFilms {
-    allPlanets(first: 15) {
+    allPlanets(first: 10) {
       edges {
         node {
           id

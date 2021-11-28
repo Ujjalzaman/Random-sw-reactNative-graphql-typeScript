@@ -22,9 +22,7 @@ const Home = () => {
 
     const handleShake = () => {
         setFilm(prevState => {
-            if (prevState >= 14) {
-                return 0;
-            }
+            if (prevState >= 9) {return 0}
             return prevState + 1;
         });
     };
